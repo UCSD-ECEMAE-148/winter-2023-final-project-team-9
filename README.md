@@ -93,15 +93,16 @@
 #### Mounting Plate
 
 #### Jetson Case
-<img src="img/top.png" alt="Case Top" width=30% height=30%>
+<img src="img/bot.png" alt="Case Top" width=30% height=30%>
 <img src="img/bottom.png" alt="Case Bottom" width=30% height=30%>
 
 #### Camera LiDAR Mount
 
 <img src="img/caml.png" alt="The Camera and LiDAR mount" width=30% height=30%>
 
-#### Box
+#### Final Project Delivery Box
 
+<img src="img/box.png" alt="The box" width=30% height=30%>
 
 ### Schematics
 
