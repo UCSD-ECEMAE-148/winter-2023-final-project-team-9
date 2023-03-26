@@ -86,7 +86,7 @@
 
 #### Full Assembly
 
-<img src="img/Robot.png" alt="The robot" width=50% height=50%>
+<img src="img/Robot.png" alt="The robot" width=30% height=30%>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
