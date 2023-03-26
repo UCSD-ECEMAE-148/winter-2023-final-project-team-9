@@ -21,7 +21,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary><b>Table of Contents</b></summary>
     <li><a href="#team-members">Team Members</a></li>
     <li>
       <a href="#hardware">Hardware and Schematics</a>
@@ -43,8 +43,8 @@
         <li><a href="#challenges">Challenges</a></li>
         <li><a href="#potential-improvements"> Potential Improvements</a></li>
       </ul>
-    <li><a href="#presentation">Presentation Files</a></li>
-    <li><a href="#refrence">Reference</a></li>
+    <li><a href="#presentations">Presentation Files</a></li>
+    <li><a href="#reference">Reference</a></li>
 
 </details>
 <!-- ABOUT THE TEAM -->
