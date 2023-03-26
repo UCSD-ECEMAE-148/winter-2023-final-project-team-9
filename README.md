@@ -143,7 +143,29 @@ The robot will be equipped with a facial recognition system, using a webcam, tha
 
 ### Challenges
 
+* Getting everything to work together
+    - Different libraries working together and all send signals to PyVESC
+* Scope of the original idea
+    - Mapping the path for future references using SLAM
+* Depth ai pipeline caused crashes
+    - X-Link Problem(Serial bus issues)
+* Translate raw LiDAR output to data we need
+* Making the car look smooth
+* Better algorithm to adjust speed(rpm)
+
 ### Potential Improvements
+
+* Implement all the features together flawlessly
+    - Currently cannot run together good due to delay from different components
+
+* Get the locking mechanism working
+    - Locking mechanism to make sure the right receiver get the package
+* LiDar also scans the path for future path planning
+    - Trying to find a person if it cannot detect anything
+
+Maybe try different frameworks since we can use different libraries without limitation in ROS or donkeycar
+
+
 
 ## Presentations
 
