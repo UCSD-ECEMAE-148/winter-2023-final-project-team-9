@@ -30,7 +30,6 @@
         <li><a href="#schematics"> Schematics</a></li>
       </ul>
     </li>
-    <li><a href="#donkey">Donkey</a></li>
     <li><a href="#final-project">Final Project</a></li>
      <ul>
         <li><a href="#abstract">Abstract</a></li>
