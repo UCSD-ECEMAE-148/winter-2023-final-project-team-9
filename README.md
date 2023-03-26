@@ -61,16 +61,12 @@
 <!-- ABOUT THE PROJECT HARDWARE -->
 ## Hardware
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ### Parts
 
 #### Full Assembly
 
 <img src="img/Robot.png" alt="The robot" width=30% height=30%>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Mounting Plate
 <img src="img/board2.png" alt="Mounting Board" width=30% height=30%>
@@ -94,19 +90,18 @@
 
 <img src="img/wire.png" alt="The Wire diagram" width=50% height=50%>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- Final Project -->
 ## Final Project
 
 ### Abstract<a name="abstract"></a>
 This project aims to develop a delivery system for our robocar that can detect and follow humans while also incorporating a stopping mechanism to prevent collisions. Additionally, the robot will utilize facial recognition to identify individuals and personalize interactions.
 
-### Part 1: Human Detection and Following with Depthai and PyVesc <a name="part-2-human-detection-and-following-with-depthai-and-pyvesc"></a>
+### Part 1: Human Detection and Following with Depthai and PyVesc
 The OAKD camera will be used to detect and track humans in the robot's vicinity. The PyVesc motor controllers will then be used to move the robot in the direction of the detected human.
 
-### Part 2: Stopping Mechanism with Lidar<a name="part-3-stopping-mechanism-with-lidar"></a> 
+<img src="img/obj.png" alt="The object recognization and following" width=80% height=80%>
+
+### Part 2: Stopping Mechanism with Lidar
 
 The Lidar sensor will be used to detect obstacles in the robot's path. If an obstacle is detected, the robot will stop moving and wait for the obstacle to clear before continuing on its path.
 
@@ -125,12 +120,16 @@ The Lidar sensor will be used to detect obstacles in the robot's path. If an obs
 
 * Putting all the distance into a list and it will stop the car if there’s an object within certain distance that LiDAR detected.
 
-
 <img src="img/lidar.png" alt="The Reading From LiDAR and how bytes work" width=80% height=80%>
 
 
-### Part 3: Facial Recognition<a name="part-4-facial-recognition"></a>  
+### Part 3: Facial Recognition
+
 The robot will be equipped with a facial recognition system, using a webcam, that will allow it to identify individuals and personalize interactions. Once it recognizes the right person, the delivery box will open.
+
+<img src="img/face.png" alt="Facial Recognization" width=80% height=80%>
+
+
 
 ## Gantt Chart
 
