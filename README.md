@@ -52,11 +52,8 @@
 
 <img src="img/Team.png" alt="The Team" width=40% height=40%>
 
-
-
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE PROJECT HARDWARE -->
 ## Hardware
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,11 +101,31 @@ This project aims to develop a delivery system for our robocar that can detect a
 The OAKD camera will be used to detect and track humans in the robot's vicinity. The PyVesc motor controllers will then be used to move the robot in the direction of the detected human.
 
 ### Part 2: Stopping Mechanism with Lidar<a name="part-3-stopping-mechanism-with-lidar"></a> 
+
 The Lidar sensor will be used to detect obstacles in the robot's path. If an obstacle is detected, the robot will stop moving and wait for the obstacle to clear before continuing on its path.
+
+#### The LiDAR on this robot aim to
+
+* Detect anything that is in a close range
+* If the position is too clase, the robot will stop to avoid collision
+* The robot will back up after it stop for a while and still detect obstacle is close
+* Transform raw binary data from LiDAR to numerical data through BinASCII library
+
+#### How to read LiDAR?
+
+* Each measurement data point of LiDAR is consists of a distance value of 2 bytes and a confidence of 1 byte
+* We transform this data through chopping it to bytes and translate it.
+* We get the angle by getting the start angle and end angle.
+
+* Putting all the distance into a list and it will stop the car if there’s an object within certain distance that LiDAR detected.
+
+
+<img src="img/lidar.png" alt="The Reading From LiDAR and how bytes work" width=80% height=80%>
+
 
 ### Part 3: Facial Recognition<a name="part-4-facial-recognition"></a>  
 The robot will be equipped with a facial recognition system, using a webcam, that will allow it to identify individuals and personalize interactions. Once it recognizes the right person, the delivery box will open.
 
 ### Gantt Chart
 
-<img src="img/gantt.png" alt="The Gantt Chart" width=30% height=30%>
+<img src="img/gantt.png" alt="The Gantt Chart" width=80% height=80%>
