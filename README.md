@@ -69,7 +69,7 @@
 * Yichen Yang (ECE)
 * Zijian Wang (MAE)
 
-<img src="img/team.png" alt="The Team" width="80" height="80">
+<img src="img/Team.png" alt="The Team" width="80" height="80">
 
 
 
@@ -83,9 +83,10 @@
 
 ### Parts
 
+
 #### Full Assembly
 
-<img src="img/robot.png" alt="The robot" width="80" height="80">
+<img src="img/Robot.png" alt="The robot" width="80" height="80">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
