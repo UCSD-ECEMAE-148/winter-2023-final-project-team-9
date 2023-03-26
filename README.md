@@ -91,6 +91,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Mounting Plate
+<img src="img/board2.png" alt="Mounting Board" width=30% height=30%>
+
 
 #### Jetson Case
 <img src="img/bot.png" alt="Case Top" width=30% height=30%>
@@ -107,7 +109,7 @@
 ### Schematics
 
 Wire Diagram
-<img src="images/wire.png" alt="The rWire diagramt" width="80" height="80">
+<img src="img/wire.png" alt="The Wire diagram" width="80" height="80">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
