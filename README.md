@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width=50% height=50%>
   </a>
 
   <h3 align="center">ECE/MAE 148 Winter 2023 Team 9</h3>
@@ -69,7 +69,7 @@
 * Yichen Yang (ECE)
 * Zijian Wang (MAE)
 
-<img src="img/Team.png" alt="The Team" width="80" height="80">
+<img src="img/Team.png" alt="The Team" width=40% height=40%>
 
 
 
@@ -86,7 +86,7 @@
 
 #### Full Assembly
 
-<img src="img/Robot.png" alt="The robot" width="80" height="80">
+<img src="img/Robot.png" alt="The robot" width=50% height=50%>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
