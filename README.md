@@ -99,7 +99,7 @@ This project aims to develop a delivery system for our robocar that can detect a
 ### Part 1: Human Detection and Following with Depthai and PyVesc
 The OAKD camera will be used to detect and track humans in the robot's vicinity. The PyVesc motor controllers will then be used to move the robot in the direction of the detected human.
 
-<img src="img/obj.png" alt="The object recognization and following" width=80% height=80%>
+<img src="img/obj.png" alt="The object recognization and following" width=40% height=40%>
 
 ### Part 2: Stopping Mechanism with Lidar
 
@@ -120,14 +120,14 @@ The Lidar sensor will be used to detect obstacles in the robot's path. If an obs
 
 * Putting all the distance into a list and it will stop the car if there’s an object within certain distance that LiDAR detected.
 
-<img src="img/lidar.png" alt="The Reading From LiDAR and how bytes work" width=80% height=80%>
+<img src="img/lidar.png" alt="The Reading From LiDAR and how bytes work" width=60% height=60%>
 
 
 ### Part 3: Facial Recognition
 
 The robot will be equipped with a facial recognition system, using a webcam, that will allow it to identify individuals and personalize interactions. Once it recognizes the right person, the delivery box will open.
 
-<img src="img/face.png" alt="Facial Recognization" width=80% height=80%>
+<img src="img/face.png" alt="Facial Recognization" width=40% height=40%>
 
 
 
