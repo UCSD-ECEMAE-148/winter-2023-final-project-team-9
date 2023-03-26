@@ -22,7 +22,6 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
     <li><a href="#team-members">Team Members</a></li>
     <li>
       <a href="#hardware">Hardware and Schematics</a>
@@ -39,7 +38,14 @@
         <li><a href="#part-2-stopping-mechanism-with-lidar"> Part 2: Stopping Mechanism with Lidar</a></li>
         <li><a href="#part-3-facial-recognition"> Part 3: Facial Recognition</a></li>
       </ul>
-  </ol>
+     <li><a href="#reflection">Reflection</a></li>
+     <ul>
+        <li><a href="#challenges">Challenges</a></li>
+        <li><a href="#potential-improvements"> Potential Improvements</a></li>
+      </ul>
+    <li><a href="#presentation">Presentation Files</a></li>
+    <li><a href="#refrence">Reference</a></li>
+
 </details>
 <!-- ABOUT THE TEAM -->
 
@@ -86,7 +92,7 @@
 
 ### Wire Diagram
 
-<img src="img/wire.png" alt="The Wire diagram" width=30% height=30%>
+<img src="img/wire.png" alt="The Wire diagram" width=50% height=50%>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
