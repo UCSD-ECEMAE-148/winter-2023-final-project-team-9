@@ -93,8 +93,12 @@
 #### Mounting Plate
 
 #### Jetson Case
+<img src="img/top.png" alt="Case Top" width=30% height=30%>
+<img src="img/bottom.png" alt="Case Bottom" width=30% height=30%>
 
-#### Camera Mount
+#### Camera LiDAR Mount
+
+<img src="img/caml.png" alt="The Camera and LiDAR mount" width=30% height=30%>
 
 #### Box
 
@@ -102,7 +106,7 @@
 ### Schematics
 
 Wire Diagram
-<img src="images/robot.png" alt="The robot" width="80" height="80">
+<img src="images/wire.png" alt="The rWire diagramt" width="80" height="80">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
