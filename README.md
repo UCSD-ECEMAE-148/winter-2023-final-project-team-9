@@ -126,6 +126,29 @@ The Lidar sensor will be used to detect obstacles in the robot's path. If an obs
 ### Part 3: Facial Recognition<a name="part-4-facial-recognition"></a>  
 The robot will be equipped with a facial recognition system, using a webcam, that will allow it to identify individuals and personalize interactions. Once it recognizes the right person, the delivery box will open.
 
-### Gantt Chart
+## Gantt Chart
 
 <img src="img/gantt.png" alt="The Gantt Chart" width=80% height=80%>
+
+## Demonstrations
+
+
+## Reflection
+
+### Challenges
+
+### Potential Improvements
+
+## Presentations
+
+ <li><a href="https://docs.google.com/presentation/d/1vZR8SQN1TiYbnnbAlBYmKsXzOSSQFPH9sE0spc0SiLc/edit?usp=sharing">Project Proposal & Progress Report</a></li>
+  <li><a href="https://docs.google.com/presentation/d/1nHktegokEYfigWinu62BJ4joUQMxiHzlaY9nhIGGi0c/edit?usp=sharing">Final Presntation</a></li>
+
+## Reference
+
+We would like to give special thanks to:
+
+* Professor Jack Silberman
+* TA Moises Lopez
+* TA Kishore Nukala
+* All The teams that helped us on the way
