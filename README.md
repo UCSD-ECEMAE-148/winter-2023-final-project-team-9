@@ -162,7 +162,7 @@ The Video might not show up, please go to img folder for full demo.
 ![demo3](img/demo3.mp4)
 
 <video width=80% controls>
-  <source src="img/demo1.mov" type="video/mov">
+  <source src="img/demo1.gif" type="video/gif">
   <source src="img/demo2.MOV" type="video/mov">
   <source src="img/demo3.mp4" type="video/mp4">
   Your browser does not support HTML video.
