@@ -144,6 +144,10 @@ The robot will be equipped with a facial recognition system, using a webcam, tha
 <img src="img/face.png" alt="Facial Recognization" width=40% height=40%>
 
 
+### Part 4: Spatial Detection with DepthAI
+
+
+
 
 ## Gantt Chart
 
