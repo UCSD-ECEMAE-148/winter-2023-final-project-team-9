@@ -12,8 +12,8 @@
   <h3 align="center">ECE/MAE 148 Winter 2023 Team 9</h3>
     
   <p align="center">
-    <li>JetBuddy</li>
-    <li>Indoor Delivery Bot based on DepthAI, OpenCV and LiDAR</li>
+    JetBuddy<br>
+    Indoor Delivery Bot based on DepthAI, OpenCV and LiDAR<br>
   </p>
 </div>
 
