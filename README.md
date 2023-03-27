@@ -149,6 +149,7 @@ The robot will be equipped with a facial recognition system, using a webcam, tha
 
 Utilizing Depthai's pipeline system we take their spatial location pipeline to simply calculate the distance of individual from the camera. The
 Object detection pipeline detects a person and creates a bounded box, then with the x and y coordinates from the bounded box we can pinpoint where we want the camera to point. After these coordinates are gathered the z location is stored in a circular list. This is because the bounded box and tracker of object distance aren't always in sync so some erroneous values are given. Once we have around 50 samples then we take the average to get a good idea of what the distance of the person from the car is. Finally we utilize pyvescs set_rpm() features to give out a more smooth acceleration system. So, basically if you're far away the robot will speed up and slow down as it moves closer to you.
+<br></br>
 <a href = "https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/OWENS/LECT9/node2.html">Get more info on Spatial Depth here</a>
 <img src = "/img/SpatialDepth.png" alt = "Spatial Depth" width = 50% height = 50%>
 ## Gantt Chart
