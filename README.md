@@ -36,8 +36,7 @@
         <li><a href="#part-1-human-detection-and-following-with-depthai-and-pyvesc">Part 1: Human Detection and Following with Depthai and PyVesc</a></li>
         <li><a href="#part-2-stopping-mechanism-with-lidar"> Part 2: Stopping Mechanism with Lidar</a></li>
         <li><a href="#part-3-facial-recognition"> Part 3: Facial Recognition</a></li>
-       <li><a href="#part-3-facial-recognition"> Part 3: Facial Recognition</a></li>
-       <li><a href = "#Part-4-Spatial-Detection-with-DepthAI"> Part 4: Spatial Detection with DepthAI</a></li>
+        <li><a href = "#Part-4-Spatial-Detection-with-DepthAI"> Part 4: Spatial Detection with DepthAI</a></li>
       </ul>
      <li><a href="#reflection">Reflection</a></li>
      <ul>
