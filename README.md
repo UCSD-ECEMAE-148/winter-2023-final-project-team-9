@@ -157,7 +157,7 @@ The robot will be equipped with a facial recognition system, using a webcam, tha
 
 The Video might not show up, please go to img folder for full demo.
 
-![demo1](img/demo1.mov)
+![demo1](img/demo1.gif)
 ![demo2](img/demo2.mov)
 ![demo3](img/demo3.mp4)
 
