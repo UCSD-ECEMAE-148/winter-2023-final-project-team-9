@@ -98,6 +98,21 @@ This project aims to develop a delivery system for our robocar that can detect a
 ### Part 1: Human Detection and Following with Depthai and PyVesc
 The OAKD camera will be used to detect and track humans in the robot's vicinity. The PyVesc motor controllers will then be used to move the robot in the direction of the detected human.
 
+#### Required Components
+* Tiny-Yolov3 model integrated in DepthAi for object detection
+* PyVesc Python package for robocar control
+
+#### Algorithm Workflow
+* Use Tiny-Yolov3 to detect the bounding box of the person in the OAKD camera's field of view.
+* Determine the position of the person by finding the central line of the bounding box, and denote the x-axis value as x0.
+* Calculate the error between the central line of the frame (416x416 pixels), e = x - x0.
+* Calculate the steering value using the formula: v = (Kp * e) / 416 + 0.5, where Kp = 1.
+* Use PyVesc to control steering by calling vesc.set_servo(v).
+
+#### Additional Settings
+* Use vesc.set_rpm() to run the car once it detects people.
+* The steering value is sampled at a rate of 5Hz to prevent frequent drifting.
+
 <img src="img/obj.png" alt="The object recognization and following" width=40% height=40%>
 
 ### Part 2: Stopping Mechanism with Lidar
