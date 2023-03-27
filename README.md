@@ -139,14 +139,15 @@ The Lidar sensor will be used to detect obstacles in the robot's path. If an obs
 
 ### Part 3: Facial Recognition
 
-The robot will be equipped with a facial recognition system, using a webcam, that will allow it to identify individuals and personalize interactions. Once it recognizes the right person, the delivery box will open.
+The robot will be equipped with a facial recognition system, using a webcam, that will allow it to identify individuals and personalize interactions. Once it recognizes the right person, the delivery box will open. The facial recognition software uses a simple python import of facial_recognition. In the facial_recognition library all we do is use openCV to capture images for the frames and use facial_recognitions "matching" function to to add a box around the persons face. In our case when this value is detected over an interval then a true value is then sent to the box to open.
 
 <img src="img/face.png" alt="Facial Recognization" width=40% height=40%>
 
 
 ### Part 4: Spatial Detection with DepthAI
 
-
+Utilizing Depthai's pipeline system we take their spatial location pipeline to simply calculate the distance of individual from the camera. The
+Object detection pipeline detects a person and creates a bounded box, then with the x and y coordinates from the bounded box we can pinpoint where we want the camera to point. After these coordinates are gathered the z location is stored in a circular list. This is because the bounded box and tracker of object distance aren't always in sync so some erroneous values are given. Once we have around 50 samples then we take the average to get a good idea of what the distance of the person from the car is. Finally we utilize pyvescs set_rpm() features to give out a more smooth acceleration system. So, basically if you're far away the robot will speed up and slow down as it moves closer to you.
 
 
 ## Gantt Chart
@@ -175,6 +176,7 @@ The Video might not show up, please go to img folder for full demo.
 
 * Getting everything to work together
     - Different libraries working together and all send signals to PyVESC
+    - Everything worked fine on a local machine but when running on the Jetson, crashes would occur
 * Scope of the original idea
     - Mapping the path for future references using SLAM
 * Depth ai pipeline caused crashes
@@ -187,7 +189,6 @@ The Video might not show up, please go to img folder for full demo.
 
 * Implement all the features together flawlessly
     - Currently cannot run together good due to delay from different components
-
 * Get the locking mechanism working
     - Locking mechanism to make sure the right receiver get the package
 * LiDar also scans the path for future path planning
