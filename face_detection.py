@@ -32,7 +32,6 @@ known_face_encodings = [
 ]
 known_face_names = [
     "Joseph Katona",
-    "Izanna Hypse"
     "Ben Zhang"
 ]
 
